@@ -1,0 +1,42 @@
+### AL ###
+# Template for AL projects for Dynamics 365 Business Central
+.vscode/             # launch.json folder
+.alcache/            # Cache folder
+.alpackages/         # Symbols folder
+.snapshots/          # Snapshots folder
+.output/             # Testing Output folder
+*.app                # Extension App-file
+rad.json             # Rapid Application Development File
+*.g.xlf              # Translation Base-file
+*.flf                # License-file
+TestResults.xml      # Test results file
+
+# === Java/Maven/Spring Boot ===
+*.class              # Compiled class files
+*.log                # Log files
+*.jar                # Package Files
+*.war
+*.ear
+hs_err_pid*          # JVM crash logs
+
+# === Eclipse / STS ===
+.project
+.classpath
+.settings/
+bin/
+tmp/
+.metadata/
+
+# === IntelliJ IDEA ===
+.idea/
+*.iml
+*.iws
+out/
+
+# === VS Code ===
+.vscode/
+
+# === BD embarcado (H2) ===
+h2/
+*.mv.db
+*.trace.db

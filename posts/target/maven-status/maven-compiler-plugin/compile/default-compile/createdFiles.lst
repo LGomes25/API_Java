@@ -1,0 +1,4 @@
+br\com\serratec\PostController.class
+br\com\serratec\PostsApplication.class
+br\com\serratec\repository\PostRepository.class
+br\com\serratec\entity\Post.class
